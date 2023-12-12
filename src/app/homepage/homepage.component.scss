@@ -1,0 +1,40 @@
+.navbar{
+  background-color: rgba(134, 219, 171, 0.345);
+}
+
+#title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchBar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  input{
+    height: 35px;
+  }
+  button{
+    display: flex;
+    align-items: center;
+    height: 35px;
+    background-color: rgba(134, 219, 171, 0.345);
+  }
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  border: none;
+  .card-body{
+    padding: 50px;
+    background-color:rgba(134, 219, 171, 0.345);
+    border-radius: 10%;
+  }
+}
