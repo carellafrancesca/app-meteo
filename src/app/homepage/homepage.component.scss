@@ -37,4 +37,19 @@
     background-color:rgba(134, 219, 171, 0.345);
     border-radius: 10%;
   }
+  #weatherTemp{
+    font-size: 1.5em;
+  }
+  #weatherDescription{
+    font-size: 1.1em;
+    margin-top: -5px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+
+footer{
+  background-color:rgba(134, 219, 171, 0.345);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }

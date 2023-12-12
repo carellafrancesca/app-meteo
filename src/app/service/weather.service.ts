@@ -13,8 +13,7 @@ export class WeatherService {
   constructor(private http: HttpClient) { }
 
   getWeather(citta: string): Observable <any>{
-    // Observable : gestione degli eventi asincroni
-    // getWeather restituisce un Observable che mostretà i dati solo quando saranno disponibili
+    // getWeather restituisce un Observable ( => eventi asincroni) che mostretà i dati solo quando saranno disponibili
     const params = {
       q: citta,
       appid: this.apiKey

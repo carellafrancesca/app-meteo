@@ -23,6 +23,9 @@ export class HomepageComponent {
     this.weatherSvc.getWeather(this.citta)
       .subscribe(data => { // il subscribe "avviene" se la chiamata http ha successo
         this.weather = data; // assegna i dati ricevuti al componente weather
+      },
+      (error) => {
+        console.error('Errore durante la richiesta meteorologica:', error);
       });
     this.citta = '';
   }
